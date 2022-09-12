@@ -84,7 +84,7 @@ int main(void)
 		struct timespec start={0, 0}, finish={0, 0}; 
 		clock_gettime(CLOCK_REALTIME, &start);
 		double time;
-		UBYTE isSingleChannel = 0;
+		UBYTE isSingleChannel = 1;
 		if(isSingleChannel) {
 			for(i=0; i<10000; i++) {
 				ADS1263_GetChannalValue(0);
