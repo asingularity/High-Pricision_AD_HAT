@@ -10,11 +10,11 @@ REF = 5.08          # Modify according to actual voltage
                     # external AVDD and AVSS(Default), or internal 2.5V
 
 # ADC1 test part
-TEST_ADC1       = True
+TEST_ADC1       = False
 # ADC2 test part
 TEST_ADC2       = False
 # ADC1 rate test part, For faster speeds use the C program
-TEST_ADC1_RATE   = False
+TEST_ADC1_RATE   = True
 # RTD test part 
 TEST_RTD        = False     
 

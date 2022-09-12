@@ -6,9 +6,9 @@
 #include <string.h>
 
 // ADC1 test part
-#define TEST_ADC1		1		
+#define TEST_ADC1		0
 // ADC1 rate test par
-#define TEST_ADC1_RATE	0		
+#define TEST_ADC1_RATE	1
 // ADC2 test part
 #define TEST_ADC2		0	
 // RTD test part	
